@@ -1,0 +1,95 @@
+body{
+  background-color:silver; 
+  padding-right:0px;
+}
+
+section, article {
+    min-height: 100vh;
+}
+.navbar{
+  background-color:rgb(178,178,178);     
+  width:100%;
+  padding-right:3rem;
+  padding-left:2rem;
+}
+
+#full_container{
+  width:100%;      
+}
+
+#top_content h1{
+  font-size:4rem;
+}
+
+.headings{
+  font-size:2rem;
+  color: white; text-shadow: black 0.1em 0.1em 0.2em;  
+}
+
+#about_heading{
+  font-size:4rem;
+}
+
+button{
+  border-radius:15%;  
+}
+button:hover{  
+  background-color:gray;
+  box-shadow:1rem 1rem 1rem;
+}
+
+.divider{
+  border:solid .2rem gray;
+  width:63%;
+  margin-left:19%;
+  margin-bottom:5%;
+  box-shadow: 1rem 1rem .4rem #888888;
+}
+#home{ background-image:url('//i.imgur.com/8rHBl2P.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size:100%;  
+}
+
+#about{
+  background-image:url('//i.imgur.com/GXbtlBv.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size:100%;
+    min-height: 100%;
+  padding:5%;
+}
+#about p{
+  color:white;
+  font-size:2rem;
+}
+#portfolio{
+  width:100%;
+   background-image:url('//i.imgur.com/jESF2.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size:100%;  
+  padding:5%;
+}
+
+li.port_list{
+  height:20rem;
+  width:auto;
+  border:solid .2rem white;
+  margin:.5rem;
+  padding:0rem;
+  overflow:hidden;
+}
+
+ul{
+  margin-bottom:13rem;
+  margin-top:3rem;
+}
+
+footer{
+  background-color:rgb(178,178,178); 
+  width:103%;  
+  margin-left:-1.4rem;  
+}
+
+
