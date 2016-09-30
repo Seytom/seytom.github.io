@@ -1,3 +1,7 @@
+/* ---------------------------------------------------------- */
+/* -----------BASIC SETUP AND REUSABLE COMPONENTS------------ */
+/* ---------------------------------------------------------- */
+
 body{
   background-color:silver; 
   padding-right:0px;
@@ -6,6 +10,31 @@ body{
 section, article {
     min-height: 100vh;
 }
+
+#full_container{
+  width:100%;      
+}
+
+.headings{
+  font-size:2rem;
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;  
+}
+
+button{
+  border-radius:15%;  
+}
+
+button:hover{  
+  background-color:gray;
+  box-shadow:1rem 1rem 1rem;
+}
+
+/* ---------------------------------------------- */
+      /* -----------NAVBAR------------ */
+/* ---------------------------------------------- */
+
+
 .navbar{
   background-color:rgb(178,178,178);     
   width:100%;
@@ -13,29 +42,32 @@ section, article {
   padding-left:2rem;
 }
 
-#full_container{
-  width:100%;      
-}
+/* ---------------------------------------------- */
+      /* -----------HOME------------ */
+/* ---------------------------------------------- */
+
+
 
 #top_content h1{
   font-size:4rem;
 }
 
-.headings{
-  font-size:2rem;
-  color: white; text-shadow: black 0.1em 0.1em 0.2em;  
+#home{ background-image:url('//i.imgur.com/8rHBl2P.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size:100%;  
+    min-height: 100vh;
 }
+
+
+
+/* ---------------------------------------------- */
+      /* -----------ABOUT------------ */
+/* ---------------------------------------------- */
+
 
 #about_heading{
   font-size:4rem;
-}
-
-button{
-  border-radius:15%;  
-}
-button:hover{  
-  background-color:gray;
-  box-shadow:1rem 1rem 1rem;
 }
 
 .divider{
@@ -45,31 +77,31 @@ button:hover{
   margin-bottom:5%;
   box-shadow: 1rem 1rem .4rem #888888;
 }
-#home{ background-image:url('//i.imgur.com/8rHBl2P.jpg');
-  background-repeat: no-repeat;
-    background-attachment: fixed;
-  background-size:100%;  
-}
 
 #about{
   background-image:url('//i.imgur.com/GXbtlBv.jpg');
   background-repeat: no-repeat;
     background-attachment: fixed;
   background-size:100%;
-    min-height: 100%;
+    min-height: 100vh;
   padding:5%;
 }
 #about p{
   color:white;
   font-size:2rem;
 }
+
+/* ---------------------------------------------- */
+      /* -----------ABOUT------------ */
+/* ---------------------------------------------- */
+
 #portfolio{
   width:100%;
    background-image:url('//i.imgur.com/jESF2.jpg');
   background-repeat: no-repeat;
     background-attachment: fixed;
-  background-size:100%;  
-  padding:5%;
+  background-size:100%;
+    min-height: 100vh; 
 }
 
 li.port_list{
@@ -86,9 +118,14 @@ ul{
   margin-top:3rem;
 }
 
+/* ---------------------------------------------- */
+      /* -----------FOOTER------------ */
+/* ---------------------------------------------- */
+
+
 footer{
   background-color:rgb(178,178,178); 
-  width:103%;  
+  width:100%;  
   margin-left:-1.4rem;  
 }
 
