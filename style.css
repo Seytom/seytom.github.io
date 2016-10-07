@@ -1,0 +1,195 @@
+body{
+    background-color:rgb(178,178,178);
+    margin: 0; 
+    }
+
+.pageNav{
+	float:right;
+	position: relative;
+	top:1rem;
+}
+
+h1{
+	display: inline;
+}
+
+/* ---------------------------------------------- */
+      /* -----------NAVBAR------------ */
+/* ---------------------------------------------- */
+
+
+.navbar{
+  background-color:rgb(178,178,178); 
+  width:100%;
+  padding-right:3rem;
+  padding-left:2rem;
+  border-bottom: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #333;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #D5D5D5;
+}
+
+/* ---------------------------------------------- */
+      /* -----------HOME------------ */
+/* ---------------------------------------------- */
+
+#top_content{
+    padding-top: 4rem;
+}
+
+#top_content h1{
+  font-size:4rem;
+}
+
+
+.divider{
+  border:solid .2rem gray;
+  width:63%;
+  margin-left:19%;
+  margin-bottom:3%;
+  box-shadow: 1rem 1rem .4rem #888888;
+}
+
+
+#home{ background-image:url('/resources/images/Seattle%20Skyline%20(1024x680).jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size:100%;  
+    min-height: 100vh;
+}
+
+#email{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.list-inline{
+    margin-top: 1%;
+}
+/* ---------------------------------------------- */
+      /* -----------ABOUT------------ */
+/* ---------------------------------------------- */
+
+
+#about_heading{
+  font-size:4rem;
+}
+
+#about{
+  background-image:url('//i.imgur.com/GXbtlBv.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size:100%;
+    min-height: 100vh;
+  padding:5%;
+}
+#about p{
+  color:white;
+  font-size:1rem;
+}
+
+/* ---------------------------------------------- */
+      /* -----------PORTFOLIO------------ */
+/* ---------------------------------------------- */
+
+#projects{
+  width:100%;
+  background-image:url('resources/images/velvet-background.jpg');
+  background-attachment: fixed;
+  background-size:100%;
+     
+}
+
+li.port_list{
+  height:20rem;
+  width:29rem;
+  border:solid .2rem white;
+  margin:1.5rem;
+  margin-left: 3rem;
+  padding:0rem;
+  overflow:hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#Mapper{
+    background-image: url("/resources/images/Tech-Event-Mapper.png");
+    
+}
+
+#Calculator{
+    background-image: url("/resources/images/Desktop-Calculator.png");
+    
+}
+
+#Timer{
+    background-image: url("/resources/images/Pomodoro-Timer.png");
+}
+
+#Weather{
+    background-image: url("/resources/images/Local-Weather.png");
+}
+
+.project-name{
+    margin-left: 8rem;
+    font-size: 1.5rem;
+}
+
+.hoverinfo {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+.hoverinfo p {
+    display: none;
+    color: #000000;
+}
+.hoverinfo:hover{
+    width: 31rem;
+}
+.hoverinfo:hover p {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 45px;    
+}
+.hoverinfo span{
+    float: left;
+}
+
+/* ---------------------------------------------- */
+      /* -----------FOOTER------------ */
+/* ---------------------------------------------- */
+
+
+#footer{
+    position: relative;
+    top:15rem;
+    color: white;
+}
